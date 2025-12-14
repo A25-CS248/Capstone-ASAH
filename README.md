@@ -82,3 +82,41 @@ Melalui pemanfaatan dataset ini, perusahaan dapat:
 1. **Mengembangkan strategi pemasaran yang lebih terarah**, sesuai dengan karakteristik dan pola transaksi dari setiap kelompok pelanggan.
 2. **Meningkatkan tingkat loyalitas pelanggan** dengan mengidentifikasi segmen yang menunjukkan penurunan aktivitas dan menerapkan pendekatan yang lebih proaktif.
 3. **Mendukung pengambilan keputusan terkait manajemen produk**, termasuk perencanaan persediaan dan evaluasi performa kategori, berdasarkan pola belanja yang terungkap dari data.
+
+---
+
+## 🚀 Cara Menjalankan (Quick Start)
+
+### Langkah 1: Persiapan Akun Kaggle
+Agar bisa mendownload dataset secara otomatis, Anda memerlukan API Token dari Kaggle:
+1. Login ke akun [Kaggle](https://www.kaggle.com/).
+2. Buka menu **Settings** (klik foto profil > Settings).
+3. Scroll ke bawah ke bagian **API** dan klik tombol **Create New Token**.
+4. File bernama `kaggle.json` akan terdownload ke komputer Anda. Simpan file ini.
+
+### Langkah 2: Buka di Google Colab
+Klik tombol di bawah ini untuk membuka notebook langsung di Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/A25-CS248/Capstone-ASAH/blob/main/Final_Capstone_(A25_CS248).ipynb)
+
+### Langkah 3: Jalankan Program
+Agar program berjalan lancar tanpa error versi library, ikuti langkah ini:
+
+1. Download file `requirements.txt` dari repository ini ke komputer Anda.
+2. Di dalam Google Colab, buka panel **Files** (ikon folder di kiri).
+3. **Upload** file `requirements.txt` tersebut ke dalam sesi Colab.
+4. Jalankan sel kode pertama pada notebook untuk menginstall library:
+   ```python
+   !pip install -r requirements.txt
+```
+5. Klik menu **Runtime** > **Run all** (atau Jalankan Semua).
+6. Saat diminta, klik tombol **Choose Files** dan upload file `kaggle.json` yang Anda dapatkan di Langkah 1.
+7. Dataset akan otomatis terdownload dan diekstrak.
+
+---
+
+**Catatan:**
+Project ini menggunakan library versi spesifik:
+- Scikit-learn: 1.8.0
+- Yellowbrick: 1.5
+- Plotly: 5.24.1
