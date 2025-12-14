@@ -17,7 +17,7 @@ RFM adalah teknik analisis pelanggan yang terbukti efektif untuk mengidentifikas
 * Frequency (F): Seberapa sering pelanggan bertransaksi.
 * Monetary (M): Berapa banyak uang yang dihabiskan pelanggan.
 
-Ketiga dimensi ini memungkinkan pengelompokan pelanggan ke segmen bernilai strategis seperti High Value Customer, At Risk, Churned, hingga New Customers. Hasil segmentasi kemudian digunakan untuk merancang strategi pemasaran yang lebih personal, retargeting yang tepat sasaran, dan pengembangan program loyalitas.
+Ketiga dimensi ini memungkinkan pengelompokan pelanggan ke segmen bernilai strategis seperti Loyalist, Big Spender, At Risk, Hibernating, dan New Customers. Hasil segmentasi kemudian digunakan untuk merancang strategi pemasaran yang lebih personal, retargeting yang tepat sasaran, dan pengembangan program loyalitas.
 
 ---
 
