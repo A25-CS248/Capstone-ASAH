@@ -106,12 +106,12 @@ Agar program berjalan lancar tanpa error versi library, ikuti langkah ini:
 2. Di dalam Google Colab, buka panel **Files** (ikon folder di kiri).
 3. **Upload** file `requirements.txt` tersebut ke dalam sesi Colab.
 4. Jalankan sel kode pertama pada notebook untuk menginstall library:
+   
    ```python
    !pip install -r requirements.txt
-```
-5. Klik menu **Runtime** > **Run all** (atau Jalankan Semua).
-6. Saat diminta, klik tombol **Choose Files** dan upload file `kaggle.json` yang Anda dapatkan di Langkah 1.
-7. Dataset akan otomatis terdownload dan diekstrak.
+6. Klik menu **Runtime** > **Run all** (atau Jalankan Semua).
+7. Saat diminta, klik tombol **Choose Files** dan upload file `kaggle.json` yang Anda dapatkan di Langkah 1.
+8. Dataset akan otomatis terdownload dan diekstrak.
 
 ---
 
